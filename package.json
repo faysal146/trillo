@@ -1,0 +1,18 @@
+{
+    "name": "trillo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "node-sass": "^4.12.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    },
+    "scripts": {
+        "start": "parcel index.html --port 2000",
+        "build": "parcel build index.html -d build --public-url ./"
+    },
+    "author": "Faysal Ahmed",
+    "license": "ISC"
+}
